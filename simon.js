@@ -19,6 +19,8 @@ for (i = 1; i <= 5; i++) {
     numbers.append(elements);
 }
 
+setTimeout(timeOutBack, 30000);
+
 
 
 // definiamo le funzioni
@@ -34,4 +36,9 @@ function createAnElement(tag, attribute) {
 
     return createEl;
 
+}
+
+
+function timeOutBack() {
+    numbers.classList.add("secondsOut");
 }
