@@ -41,4 +41,9 @@ function createAnElement(tag, attribute) {
 
 function timeOutBack() {
     numbers.classList.add("secondsOut");
+    let risposta = parseInt(prompt("inserisci il numero"));
+    let risposte2 = parseInt(prompt("inserisci il numero"));
+    let risposte3 = parseInt(prompt("inserisci il numero"));
+    let risposte4 = parseInt(prompt("inserisci il numero"));
+    let risposte5 = parseInt(prompt("inserisci il numero"));
 }
